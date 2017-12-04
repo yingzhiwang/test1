@@ -1,0 +1,6 @@
+pre_ci_boot:
+
+    image: index.alauda.cn/alaudaorg/qaimages
+    tag: svn 
+ci:
+    - cp -r ./* $ALAUDACI_UPLOAD_DIR

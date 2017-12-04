@@ -1,0 +1,7 @@
+pre_ci_boot:
+    image: index.alauda.cn/alaudaorg/qaimages
+    tag: helloworld
+ci:
+    - echo "<h1>hello world YIYI!</h1>" > hi.txt
+    - cp -r hi.txt $ALAUDACI_UPLOAD_DIR
+    - sleep 300
