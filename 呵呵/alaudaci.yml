@@ -3,4 +3,4 @@ pre_ci_boot:
     image: index.alauda.cn/alaudaorg/qaimages
     tag: volumetest
 ci:
-    - cp Dockerfile $ALAUDACI_DEST_DIR
+    - cp Dockerfile $ALAUDACI_UPLOAD_DIR
