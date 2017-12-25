@@ -4,5 +4,5 @@ pre_ci_boot:
 ci:
     - echo "<h1>hello world YIYI!</h1>" > hi.txt
     - cp -r hi.txt $ALAUDACI_UPLOAD_DIR
-    - c -r . $ALAUDACI_DEST_DIR
+    - cp -r . $ALAUDACI_DEST_DIR
     - sleep 3
