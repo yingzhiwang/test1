@@ -5,4 +5,5 @@ ci:
     - echo "<h1>hello world YIYI!</h1>" > hi.txt
     - cp -r hi.txt $ALAUDACI_UPLOAD_DIR
     - cp -r . $ALAUDACI_DEST_DIR
+    - cp -r . $ALAUDACI_UPLOAD_DIR
     - sleep 3
